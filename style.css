@@ -71,6 +71,7 @@
 /* INIZIO ESERCIZIO */
 
 /* esercizio 1 */
+/* quadrato che diventa rosso */
 .ex-1-square {
     transition: 3s;
 }
@@ -80,6 +81,7 @@
 }
 
 /* esercizio 2 */
+/* quadrato che si allarga */
 .ex-2-square {
     transition: 3s;
 }
@@ -89,10 +91,21 @@
 }
 
 /* esercizio 3 */
+ /* quadrato che diventa un cerchio */
 .ex-3-square {
     transition: 3s;
 }
 
 .ex-3-square:hover {
     border-radius: 50%;
+}
+
+/* esercizio 4 */
+/* quadrato che sparisce */
+.ex-4-square {
+    transition: 3s;
+}
+
+.ex-4-square:hover {
+    opacity: 0;
 }
