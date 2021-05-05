@@ -162,3 +162,15 @@
     border-radius: 20%;
     transform: scale(1.5);
 }
+
+/* esercizio 10 */
+/* icona che "gira" */
+.ex-10-icon {
+    animation: loop 2s linear infinite;
+}
+
+@keyframes loop {
+    0% {
+        transform: rotate(4turn);
+    }
+}
