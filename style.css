@@ -123,3 +123,9 @@
 .ex-5-square:active {
     transform: scale(0.5);
 }
+
+/* esercizio 6 */
+/* immagine che si trasforma istantaneamente in bianco e nero */
+.ex-6-img:hover {
+    filter: grayscale(100%);
+}
