@@ -129,3 +129,13 @@
 .ex-6-img:hover {
     filter: grayscale(100%);
 }
+
+/* esercizio 7 */
+/* immagine che si trasforma gradualmente */
+.ex-7-img {
+    transition: 3s;
+}
+
+.ex-7-img:hover {
+    filter: contrast(180%) saturate(180%);
+}
