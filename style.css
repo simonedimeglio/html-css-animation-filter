@@ -139,3 +139,14 @@
 .ex-7-img:hover {
     filter: contrast(180%) saturate(180%);
 }
+
+/* esercizio 8 */
+/* due effetti e bordi arrotondati */
+.ex-8-img {
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    filter: blur(1px) invert(100%);
+    border-radius: 20%;
+}
