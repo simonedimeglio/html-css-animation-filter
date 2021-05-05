@@ -174,3 +174,20 @@
         transform: rotate(4turn);
     }
 }
+
+/* esercizio 11 */
+/* icona che (in hover) "gira" fino a 3/4 e torna indietro velocemente */
+.ex-11-icon:hover {
+    animation: halfloop 2s linear;
+}
+@keyframes halfloop {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
