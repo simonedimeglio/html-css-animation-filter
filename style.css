@@ -150,3 +150,15 @@
     filter: blur(1px) invert(100%);
     border-radius: 20%;
 }
+
+/* esercizio 9 */
+/* due effetti, bordi arrotondati ed immagine scalata */
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    filter: blur(1px) grayscale(100%);
+    border-radius: 20%;
+    transform: scale(1.5);
+}
