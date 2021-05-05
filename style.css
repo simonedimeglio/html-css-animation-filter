@@ -191,3 +191,30 @@
         transform: rotate(0);
     }
 }
+
+/* esercizio 12 */
+/* muovi gli spazi bianchi all'interno del bottone */
+.ex-12-button:hover .ex-12-top-white {
+    animation: whitespacestop 2s linear;
+}
+@keyframes whitespacestop {
+    /* già presente position:absolute */
+    0% {
+        left: 10%;
+    }
+    100% {
+        left: calc(100% - 60px);
+    }
+}
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: whitespacesbottom 2s linear;
+}
+@keyframes whitespacesbottom {
+    /* già presente position:absolute */
+    0% {
+        right: 20%;
+    }
+    100% {
+        right: calc(100% - 60px);
+    }
+}
